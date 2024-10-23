@@ -14,7 +14,7 @@ Q: 갑자기 우울이 밀려올 때면 나 자신이 너무 가치 없게 느�
 A: 세상에 가치없는 사람은 없어요 모두 다 가치있고 소중해요 선생님도 소중한 사람이에요 그 사실을 잊지말았으면 좋겠어요 
 """
 
-st.title("상운아 사랑해")
+st.title("자연어처리 챗봇")
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 st.image("Doctor.png", width=500)
